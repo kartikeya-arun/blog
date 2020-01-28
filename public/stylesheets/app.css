@@ -1,0 +1,14 @@
+i.icon{
+    font-size: 2em;
+}
+
+.container.segment{
+    margin-top:7.0em;
+}
+
+.ui.icon.button{
+    border:none;
+}
+body{
+    background: grey; 
+}
