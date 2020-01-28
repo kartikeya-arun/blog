@@ -22,11 +22,11 @@ var blogSchema=new mongoose.Schema({
 });
 var Blog=mongoose.model("Blog",blogSchema);
 
-Blog.create({
-    title:"Test post",
-    image:"https://images6.alphacoders.com/815/thumb-1920-815168.jpg",
-    body:"'Lorem ipsum dolor sit amet, consectetur adipiscing elit. Donec congue purus bibendum ipsum ultricies volutpat. Duis et scelerisque orci. In et arcu mauris. Praesent rutrum enim a dui pulvinar, at eleifend arcu sagittis. Aenean a libero est. Maecenas fermentum rutrum ex, at posuere nisi elementum eu. Mauris ut egestas nunc. Quisque varius finibus lorem, in blandit felis varius nec. Quisque scelerisque tempus nisi. Curabitur aliquam maximus massa eu ultricies. Vivamus dui massa, laoreet in viverra sit amet, sodales et magna. Duis ut nibh velit."
-});
+// Blog.create({
+//     title:"Test post",
+//     image:"https://images6.alphacoders.com/815/thumb-1920-815168.jpg",
+//     body:"'Lorem ipsum dolor sit amet, consectetur adipiscing elit. Donec congue purus bibendum ipsum ultricies volutpat. Duis et scelerisque orci. In et arcu mauris. Praesent rutrum enim a dui pulvinar, at eleifend arcu sagittis. Aenean a libero est. Maecenas fermentum rutrum ex, at posuere nisi elementum eu. Mauris ut egestas nunc. Quisque varius finibus lorem, in blandit felis varius nec. Quisque scelerisque tempus nisi. Curabitur aliquam maximus massa eu ultricies. Vivamus dui massa, laoreet in viverra sit amet, sodales et magna. Duis ut nibh velit."
+// });
 
 app.get("/",(req,res)=>{
     res.redirect("/blogs");
