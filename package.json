@@ -2,7 +2,7 @@
   "name": "restful-blogapp",
   "version": "1.0.0",
   "description": "",
-  "main": "index.js",
+  "main": "app.js",
   "homepage":"https://c-h-o-c-o-l-a-t-e.github.io/blog/",
   "scripts": {
     "test": "echo \"Error: no test specified\" && exit 1",
