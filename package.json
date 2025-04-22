@@ -3,17 +3,18 @@
   "version": "1.0.0",
   "description": "",
   "main": "app.js",
-  "homepage":"https://c-h-o-c-o-l-a-t-e.github.io/blog/",
+  "homepage": "https://c-h-o-c-o-l-a-t-e.github.io/blog/",
   "scripts": {
     "test": "echo \"Error: no test specified\" && exit 1",
-    "start":"node app.js",
-    "predeploy":"yarn deploy",
-    "deploy":"gh-pages -d build"
+    "start": "node app.js",
+    "predeploy": "yarn deploy",
+    "deploy": "gh-pages -d build"
   },
   "author": "Myself",
   "license": "ISC",
   "dependencies": {
     "body-parser": "^1.18.3",
+    "dotenv": "^16.5.0",
     "ejs": "^2.6.1",
     "express": "^4.16.4",
     "express-sanitizer": "^1.0.5",
